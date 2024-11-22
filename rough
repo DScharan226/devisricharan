@@ -1,0 +1,166 @@
+ <section id="skills" class="glass-card">
+        <h2>Skills</h2>
+        <ul>
+            <li class="skill-names"><i class="fas fa-check-circle"></i> Python</li>
+            <li class="skill-names"><i class="fas fa-check-circle"></i> JavaScript</li>
+            <li class="skill-names"><i class="fas fa-check-circle"></i> HTML & CSS</li>
+            <li class="skill-names"><i class="fas fa-check-circle"></i> Automation</li>
+            <li class="skill-names"><i class="fas fa-check-circle"></i> Front-End Development</li>
+        </ul>
+    </section>
+
+
+    gsap.from(".skill-names", {
+        opacity: 0,
+        x: 70,
+        duration: 2,
+        stagger: 0.2,
+        scrollTrigger:{
+            trigger:".skill-names",
+            toggleActions:"play none none reset"
+        }
+    });
+    
+
+    .glass-card {
+        background: rgba(34, 19, 34, 0.385);
+        backdrop-filter: blur(10px);
+        border-radius: 20px;
+        padding: 20px;
+        margin: 20px auto;
+        width: 90%;
+        max-width: 900px;
+        box-shadow: 0 4px 20px rgba(92, 235, 180, 0.3);   
+    }
+
+
+    <div class="service-item">
+        <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+        <h2>FRAMEWORKS</h2>
+        <p><h2>BOOTSTRAP,REACT,SELENIUM,DJANGO</h2></p>
+      </div>
+
+      <script src="script.js">
+        $(document).ready(function() {
+                                                                                                                 // Smooth scroll 
+            $('a').on('click', function(event) {
+                if (this.hash !== "") {
+                    event.preventDefault();
+                    var hash = this.hash;
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().scrollTop
+                    }, 800);
+                }
+            });
+        });
+      
+        
+    </script>
+
+
+
+
+
+
+
+
+
+
+      <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GSAP Animation Example</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <style>
+        #myElement {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+
+<div id="myElement"></div>
+
+<script>
+    // GSAP animation
+    gsap.to("#myElement", { 
+        x: 300, // Move to the right by 300px
+        rotation: 360, // Rotate 360 degrees
+        duration: 2, // Duration of the animation in seconds
+        ease: "power1.inOut" // Easing function
+    });
+</script>
+
+</body>
+</html>
+#myElement
+
+
+
+
+
+
+
+<section id="services">
+    <div class="services container">
+        <div class="service-top">
+         <h1 class="section-title" style="align-items: center;">SKI<span>L</span>LS</h1>
+          <p></p>
+        </div>
+      <div id="myElement">
+        <div class="service-bottom">
+          <div class="service-item">
+              <div class="html-icon">
+            <div class="icon"><img alt="svgImg" src="/img/SKILLS/icons8-html-480.png"/></div>
+            <h2>HTML</h2>
+            </div>
+          </div>
+          <div class="service-item">
+            <div class="icon"><img src="/img/SKILLS/icons8-css-480.png"/></div>
+            <h2>CSS</h2>
+          </div>
+          <div class="service-item">
+            <div class="icon"><img src="/img/SKILLS/icons8-javascript-480.png" /></div>
+            <h2>JAVASCRIPT</h2>
+            <p></p>
+          </div>
+          <div class="service-item">
+            <div class="icon"><img src="/img/SKILLS/icons8-bootstrap-480.png" /></div>
+            <h2>BOOTSTRAP</h2>
+            <p></p>
+          </div>
+          <div class="service-item">
+            <div class="icon"><img src="/img/SKILLS/icons8-react-80.png" /></div>
+            <h2>REACT.JS</h2>
+            <p></p>
+          </div>
+          <div class="service-item">
+            <div class="icon"><img src="/img/SKILLS/icons8-python-480.png" /></div>
+            <h2>PYTHON</h2>
+            <p></p>
+          </div>
+          <div class="service-item">
+            <div class="icon"><img src="/img/SKILLS/icons8-database-50.png" /></div>
+            <h2>MySQL</h2>
+            <p></p>
+          </div>
+          <div class="service-item">
+            <div class="icon"><img src="/img/SKILLS/icons8-django-500.png" /></div>
+            <h2>DJANGO</h2>
+            <p></p>
+          </div>
+          <div class="service-item">
+            <div class="icon"><img src="/img/SKILLS/icons8-selenium-480.png" /></div>
+            <h2>SELENIUM</h2>
+            <p></p>
+          </div>
+      
+        </div>
+      </div>
+    </div>                                     
+    </section>

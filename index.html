@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+  <title>My Website</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>D</span>EVISRICHARAN <span>V</span>URLUGONDA</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#services" data-after="Service">Skills</a></li>
+            <li><a href="#projects" data-after="Projects">Projects</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello, <span></span></h1>
+        <h1>My Name is <span></span></h1>
+        <h1>DEVISRICHARAN <span></span></h1>
+        <a href="#about" type="button" class="cta"><span class="a">About</span><span class="me">me</span> </a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- Service Section -->
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title" style="align-items: center;">SKI<span>L</span>LS</h1>
+        <p></p>
+      </div>
+      <div id="myElement">
+        <div class="service-bottom">
+          <div class="service-item">
+            <div class="html-icon">
+              <div class="icon"><img alt="svgImg" src="/img/SKILLS/icons8-html-480.png"/></div>
+              <h2>HTML</h2>
+            </div>
+          </div>
+          <div class="service-item">
+            <div class="icon"><img src="/img/SKILLS/icons8-css-480.png"/></div>
+            <h2>CSS</h2>
+          </div>
+          <div class="service-item">
+            <div class="icon"><img src="/img/SKILLS/icons8-javascript-480.png" /></div>
+            <h2>JAVASCRIPT</h2>
+          </div>
+          <div class="service-item">
+            <div class="icon"><img src="/img/SKILLS/icons8-bootstrap-480.png" /></div>
+            <h2>BOOTSTRAP</h2>
+          </div>
+          <div class="service-item">
+            <div class="icon"><img src="/img/SKILLS/icons8-react-80.png" /></div>
+            <h2>REACT.JS</h2>
+          </div>
+          <div class="service-item">
+            <div class="icon"><img src="/img/SKILLS/icons8-python-480.png" /></div>
+            <h2>PYTHON</h2>
+          </div>
+          <div class="service-item">
+            <div class="icon"><img src="/img/SKILLS/icons8-database-50.png" /></div>
+            <h2>MySQL</h2>
+          </div>
+          <div class="service-item">
+            <div class="icon"><img src="/img/SKILLS/icons8-django-500.png" /></div>
+            <h2>DJANGO</h2>
+          </div>
+          <div class="service-item">
+            <div class="icon"><img src="/img/SKILLS/icons8-selenium-480.png" /></div>
+            <h2>SELENIUM</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Service Section -->
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Recent <span>Projects</span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Employee management system</h1>
+            <h2> - Full Stack Development </h2>
+            <p>
+              ?Implemented a secure Employee Management System with distinct user interfaces for administrators and
+              employees <br>
+              ?The system, developed using HTML, CSS, and JavaScript for the front end and python for
+              backend connectivity, offered seamless navigation based on user credentials. Established a robust
+              connection between the front end and MySQL database <br>
+              ?Collaborated with team members to ensure project objectives were met within specified timelines.</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/emp.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>A Machine Learning Approach for Early Detection of Fish Diseases by Analysing Water Quality</h1>
+            <h2> -Machine Learning</h2>
+            <p>•Developed a machine learning model for early detection of fish diseases by analyzing water quality parameters.
+            <br>
+              • Utilized data-driven techniques to improve aquaculture health management and minimize economic losses.</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/fish.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 3</h1>
+            <h2>Coding is Love</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
+              rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+              harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+          </div>
+          <div class="project-img">
+            <img src="/img/portfolio.png" alt="img">
+          </div>
+        </div>
+      </section>
+    <section id="projects">
+      <div class="projects container">
+        <div class="projects-header">
+        <h1 class="section-title">EDU<span>c</span>ATION</h1> <br><br>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>ANURAG ENGINEERING COLLEGE</h1>
+            <h2>(2020 - 2024)</h2>
+            <p></p>
+          </div>
+          <div class="project-img">
+            <img src="/img/ANRK-Logo.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>RESONANCE JR COLLEGE</h1>
+            <h2>(2018 - 2020)</h2>
+            <p></p>
+          </div>
+          <div class="project-img">
+            <img src="/img/resonance.jpeg" alt="img">
+          </div>
+        </div>
+  </section>
+  <!-- End Projects Section -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./img/dsimg.jpg" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>me</span></h1>
+        <h2>FULL-STACK DEVELOPER</h2>
+        <p>Hello, my name is Devi Sri Charan. I recently graduated with a Bachelor's degree in Computer Science Engineering from Anurag Engineering College in Kodad, Telangana.
+
+          During my studies, I completed an <span style="color: red;">internship</span>  in full-stack development using Python, where I gained hands-on experience with frameworks such as <span style="color: red;" >React.js, Selenium, and Bootstrap</span>.
+          
+          I have worked on several projects, including:
+          
+         <span style="color: red;">Employee Management System</span> : A full-stack application designed with distinct user interfaces for administrators and employees. I used HTML, CSS, JavaScript, and Python, along with a MySQL database, to manage employee data effectively.
+          <span style="color: red;">Machine Learning for Fish Disease Detection</span>: A machine learning model developed to analyze water quality parameters for the early detection of fish diseases, aiming to improve aquaculture health management.
+          I am excited to leverage my technical skills and project experience to contribute to innovative solutions in the tech industry.and passionate about improving my coding skills and continuously exploring new technologies to deliver impactful solutions.</p>
+        <a href="/img/DS_CHARAN_vurlugonda.pdf" class="cta"><span style="color: red;">R</span>ESUME</a>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Contact <span>info</span></h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+91 9550814226</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>devisricharan226@gmail.com</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>KPHB PHASE:09,HYDERABAD</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1>DS<span>C</span>haran's <span>P</span>ortfolio</h1>
+      </div>
+      <h2>Your Complete Web Solution</h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="https://www.linkedin.com/in/devisricharan-vurlugonda-882602246/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAACEklEQVR4nO2YO08CQRDH11jYGisTW7X1E1jZKcTSL2EQJHJbEAsJiZ2FhZ2FpbWFDY/IO0YN3GIEiQWFxhhBER8oMGZvFVC4wJ3mbi/ZfzIh7GyW+e3Mzh2LkJCQkBDfkrKLSCJhhEkVYQIGWRVhEkKSbP9b8FjeNDBoUDG//p03P3hgJtt0AChlw0HwBJBEgjoA5CeOMlDRDqC2mCcNyJUEtBJjn/S7ERCapRL8tC8FR5dlqNbqECmUYWojZQyEZvVaxJVUgu5UOF9mmbAEwEpM2flOPb3VWTlZAsBl9Qx42BmgEDQToXwJJi11BrDVu5AzAcgR7TY63s8vZQC5j9tznF8bsHZK+7xBAI4I9BId7+ef8CZhK1iE7HUVXt8b8PDyoZTi8n4ORtyJ/pk0E2DGn4LbSg3UdFKswLg3ybLEI0Dh7gX6KZQvwZArzifAoJrfyaiXkpkAjWZTqf+57TQs7WYhcFHqOW8vdcMOOm8A6wdXLDBa4540DK8m4PD8vmte7va53dF4AhjD8Z+t0pOG2a2zrnmPrx/qryVmATSbHf6WyTAqJVTmRvkCYP6o9rWwACAiA98SJYTFISaiCyHRRv/lH1mcPWh+Gx0fxK9lLfzXBxlPV4uS/KgdgN7Pmx04br07BfRkwM5PBjIL2gFYFvymB4+JT1/wLQjZptzPG3kmJPpbckD/zgsJCQkhg/QJ3PVUWJ5Zt98AAAAASUVORK5CYII=" alt="linkedin">" /></a>
+        </div>
+      </div>
+      <!-- <p>Copyright ©DEVISRICHARN 2020. All rights reserved</p> -->
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+  <script src="./GSAP.JS"></script>
+  <script src="./jq.js" ></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>  
+</body>
+</html>
